@@ -24,3 +24,10 @@
 
 
 # Using the `all` function, confirm that all of the numbers in your `odd` vector are odd
+
+x <- 10:20
+y <- seq(21,30)
+z <- c(x,y)
+w <- z[11]
+q <- z[2:5]
+len <- length(q)
